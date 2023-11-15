@@ -24,7 +24,7 @@ sudo ip link add vxlan0 type vxlan id 100 local 192.168.5.105 remote 192.168.5.2
 sudo ip addr add 233.233.233.2/24 dev vxlan0
 sudo ip link set vxlan0 up
 sudo mn -c
-sudo ip route add 10.10.2.0/24 via 233.233.233.2 dev vxlan0
+sudo ip route add 10.10.1.0/24 via 233.233.233.2 dev vxlan0
 
 5. set up mininet:
 in another terminal in VM1:
