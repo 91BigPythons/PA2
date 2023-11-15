@@ -3,11 +3,11 @@
 3. install mininet in two VMs
 4. set up vxlan:
 
-###
+####
 ssh og_team1_vm1
 ssh og_team1_vm2
 sudo ufw disable
-###
+####
 
 get IPs of VM1(192.168.5.220 ) and VM2(192.168.5.105) from chameleon
 in VM1:
